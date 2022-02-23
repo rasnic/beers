@@ -1,0 +1,23 @@
+#breadcrumbs{
+    background-color: rgb(201, 201, 201);
+    padding: 10px 0 10px 50px;
+    font-weight: bold;
+}
+
+#wallpaper{
+    background-image: url('./beer_wallpaper.jpg');
+    height: 95vh;
+    width:  100%;
+    display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+    background-position:center;
+    background-size: cover;
+}
+
+#card{
+    align-self: center;
+    position: absolute;
+}

@@ -1,0 +1,13 @@
+#breadcrumbs{
+    background-color: rgb(201, 201, 201);
+    padding: 10px 0 10px 50px;
+    font-weight: bold;
+    
+}
+
+#grid{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding-top: 50px;
+    padding-left: 40px;
+}
