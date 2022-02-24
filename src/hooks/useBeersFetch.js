@@ -6,9 +6,10 @@ export const useBeersFetch = (type) =>{
 
     useEffect(() =>{
         fetchBeers()
-    },[]);
+    },[fetchBeers]);
 
 
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     async function fetchBeers() {
         if(!localStorage.getItem("Caramalt")) {
             let caramalt = []; let extraPale = []; let munich  = []; let darkcrystal = [];
